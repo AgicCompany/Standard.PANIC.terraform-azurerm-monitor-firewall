@@ -26,7 +26,7 @@ Terraform module for Azure Firewall monitoring alerts using the PANIC framework.
 
 ```hcl
 module "firewall_alerts" {
-  source = "git::https://github.com/yourorg/terraform-azurerm-monitor-firewall.git?ref=v1.0.0"
+  source = "git::https://github.com/AgicCompany/Standard.PANIC.terraform-azurerm-monitor-firewall.git?ref=v1.0.0"
 
   resource_id         = azurerm_firewall.main.id
   resource_name       = "hub-firewall"
@@ -43,7 +43,7 @@ module "firewall_alerts" {
 
 ```hcl
 module "firewall_alerts" {
-  source = "git::https://github.com/yourorg/terraform-azurerm-monitor-firewall.git?ref=v1.0.0"
+  source = "git::https://github.com/AgicCompany/Standard.PANIC.terraform-azurerm-monitor-firewall.git?ref=v1.0.0"
 
   resource_id         = azurerm_firewall.main.id
   resource_name       = "prod-firewall"
